@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.header{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    /* border:1px solid black; */
+}
+.header-logo{
+    width:177px;
+    height:42px;
+    margin-top:5px;
+    background:url(../images/logo.png) no-repeat;
+    /* margin-top:5px; */
+}
+.header-nav{
+    position: absolute;
+    right: 150px;
+    top:10px;
+    width: 600px;
+    height: 50px;
+    /* border:1px solid black; */
+
+}
+.header-nav li{
+    float:left;
+    padding-left:60px;
+}
+.header-nav a{
+    font-size:14px;
+    color:grey;
+}
+.header-nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.header-nav .underline{
+    color: black;
+    text-decoration: underline;
+}
+.banner{
+   position: relative;
+   width:100%;
+   height: 1840px;
+   margin-top:110px;
+   /* border:1px solid black; */
+}
+.banner .banner-img1{
+   width: 100%;
+   height: 750px;
+   margin-left:300px;
+   background:url(../images/dress1.png) no-repeat;
+   /* border: 1px solid orangered; */
+}
+.dress-type{
+    position: absolute;
+    top:0px;
+    left:1085px;
+    width:230px;
+    height:72px;
+    border-left:2px solid black;
+
+
+}
+.banner .banner-img1 .price{
+    position: absolute;
+    top:100px;
+    left:1085px;
+    width:230px;
+    height:72px;
+    /* border:2px solid orange; */
+
+
+}
+.banner .banner-img1 .price span{
+    color:grey;
+    margin-left:150px;
+
+}
+.banner .banner-img1 .price p{
+    color: grey;
+    margin-left:82px;
+}
+.dress-type span{
+    margin-left:10px;
+    font-size:30px;
+    
+}
+.dress-type p{
+    margin-left:140px;
+    
+    
+}
+.banner .banner-img1 .introduction{
+    position: absolute;
+    top:150px;
+    left:1085px;
+    width:430px;
+    height:72px;
+    /* border:1px solid black; */
+
+}
+.banner .banner-img1 .introduction p{
+    color: grey;
+}
+.banner .banner-img1 .reservation{
+    position: absolute;
+    top:245px;
+    left:1150px;
+    width:150px;
+    height: 45px;
+    border: 1px dashed grey;
+}
+.banner .banner-img1 .reservation a{
+    line-height: 45px;
+    margin-left:45px;
+    color: black;
+}
+
+.banner .banner-img2{
+  position: relative;
+   width: 100%;
+   height: 1050px;
+   margin-left:300px;
+   margin-top:40px;
+   background:url(../images/dress2.png) no-repeat;
+   /* border: 1px solid black; */
+
+}
+.banner .banner-img2 .idea{
+    position:absolute;
+    left: 0px;
+    bottom: 120px;
+    width:708px;
+    height: 80px;
+    /* border:1px solid orange; */
+
+}
+.banner .banner-img2 .idea p{
+    font-size:14px;
+
+}
+.banner .banner-img2 .size{
+    position: absolute;
+    left:0px;
+    bottom:50px;
+    width:95px;
+    height:40px;
+    /* border:1px solid black; */
+}
+.turn{
+    position: relative;
+    width: 100%;
+    height: 555px;
+    background-color: #DDDDDD;
+    border: 1px solid orange;
+}
+.turn .turn-position{
+    position: absolute;
+    top:50%;
+    left: 0px;
+    width: 100%;
+    height: 79px;
+    /* border: 1px solid black; */
+
+}
+.turn .turn-left{
+    width: 50px;
+    height: 79px;
+    background:url(../images/back.png) no-repeat;
+    /* border:1px solid black; */
+}
+.turn .turn-right{
+    float: right;
+    width: 50px;
+    height: 79px;
+    margin-top:-79px;
+    background:url(../images/andmore.png) no-repeat;
+}
+.turn button{
+   display: block;
+   width: 145px;
+   height: 45px;
+   margin:0 auto;
+   margin-top:410px;
+  
+  
+}
+.footer{
+    position: relative;
+    width:100%;
+    height: 100px;
+    
+    background:#4D4D4D;
+    /* border:1px solid orangered; */
+}
+.footer-left{
+    position: absolute;
+    top:40px;
+    left: 300px;
+    display: block;
+    width: 500px;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+.footer-right{
+    position: absolute;
+    right: 0px;
+    bottom: -30px;
+    display: block;
+    width: 500px;
+    height: 80px;
+    /* border:1px solid black; */
+    
+}
+.footer-right li{
+    
+    float:left;
+    padding-left:50px;
+    line-height: 50px;
+}
+.footer-right a{
+    color: black;
+}

@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.header{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    /* border:1px solid orange; */
+}
+.header-logo{
+    width:177px;
+    height:42px;
+    margin-top:5px;
+    background:url(../images/logo.png) no-repeat;
+    /* margin-top:5px; */
+}
+.header-nav{
+    position: absolute;
+    right: 150px;
+    top:10px;
+    width: 600px;
+    height: 50px;
+    /* border:1px solid black; */
+
+}
+.header-nav li{
+    float:left;
+    padding-left:60px;
+}
+.header-nav a{
+    font-size:14px;
+    color:grey;
+}
+.header-nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.header-nav .underline{
+    color: black;
+    text-decoration: underline;
+}
+/* .header .header-more{ */
+    
+    /* width: 400px;
+    height: 300px;
+    border: 1px solid rgba(0,0,0, 0.1) */
+
+
+/* .header .header-more li{ */
+    /* width: 100%;
+    height: 100%;
+    border: 1px solid orange; */
+
+
+.header .header-more a{
+    visibility: hidden;
+    display: block;
+    width: 100px;
+    height: 30px;
+    color: grey;
+    margin-left: 1090px;
+    /* border: 5px solid orange; */
+
+}
+.header .header-more a:hover{
+    visibility: visible;
+}
+
+.banner{
+    width: 100%;
+    height: 270px;
+    background: url(../images/webanner.png) no-repeat;
+    /* border: 1px solid orange; */
+}
+.story{
+    width:1200px;
+    height: 670px;
+    margin: 0 auto;
+    margin-left:360px;
+    margin-top:100px;
+    /* border: 1px solid black; */
+    background:url(../images/story.png) no-repeat;
+    
+}
+.contact{
+    width:100%;
+    height: 60px;
+}
+.contact span{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    margin-left:150px;
+    /* line-height: 50px; */
+
+}
+.contact p{
+    display: block;
+    width: 100%;
+    height:20px;
+    text-align: center;
+    margin-left:150px;
+    color: grey;
+
+}
+.shop{
+    position: relative;
+    width: 1200px;
+    height: 472px;
+    margin: 0 auto;
+    margin-left:360px;
+    background:url(../images/ny.png) no-repeat;
+    /* border:1px solid black; */
+}
+.shop span{
+    position:absolute;
+    left:0px;
+    bottom:80px;
+    display: block;
+    width: 350px;
+    height: 25px;
+    font-size:24px;
+    /* border: 1px solid black; */
+}
+.shop p{
+    position: absolute;
+    left: 0px;
+    bottom:20px;
+    display: block;
+    width:1080px;
+    /* border:1px solid black; */
+}
+.address{
+    position: relative;
+    width:730px;
+    height:243px;
+    margin-left: 360px;
+    background:url(../images/map.png) no-repeat;
+    /* border: 1px solid black; */
+}
+.address span{
+    position: absolute;
+    left:514px;
+    bottom:66px;
+    width: 160px;
+    font-size:13px;
+}
+.address p{
+    position: absolute;
+    left: 514px;
+    bottom:22px;
+    width:210px;
+    font-size:13px;
+}
+.address .city{
+    position: absolute;
+    left: 514px;
+    bottom:45px;
+    width:210px;
+    font-size:13px;
+}
+.address a{
+    position: absolute;
+    left:514px;
+    bottom: 0px;
+    width: 100px;
+    font-size:13px;
+    color: black;
+}
+.footer{
+    position: relative;
+    width:1800px;
+    height: 100px;
+    background-color: #4D4D4D;
+    /* border:1px solid orangered; */
+}
+.footer-left{
+    position: absolute;
+    top:40px;
+    left: 300px;
+    display: block;
+    width: 500px;
+    height: 50px;
+    color: white;
+    /* border: 1px solid black; */
+}
+.footer-right{
+    position: absolute;
+    right: 0px;
+    bottom: -30px;
+    display: block;
+    width: 500px;
+    height: 80px;
+    /* border:1px solid black; */
+    
+}
+.footer-right li{
+    
+    float:left;
+    padding-left:50px;
+    line-height: 50px;
+}
+.footer-right a{
+    color: white;
+}

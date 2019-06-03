@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.header{
+    position: relative;
+    width: 1070px;
+    height: 80px;
+    margin-left:366px;
+    /* border:1px solid orange; */
+}   
+ 
+.header-logo{
+    width:177px;
+    height:42px; 
+    margin-top:25px;
+    background:url(../images/logo.png) no-repeat;
+    
+}
+.header-nav{
+    position: absolute;
+    top:25px;
+    right: 0px;
+    width: 600px;
+    height: 80px;
+    /* border:1px solid black; */
+}
+.header-nav li{
+    float:left;
+    width: 120px;
+    text-indent: 50px;
+    /* padding-left:60px; */
+}
+.header-nav a{
+    font-size:16px;
+    color:grey;
+}
+.header-nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.header-nav .underline{
+    color: black;
+    text-decoration: underline;
+}
+.banner{
+    width: 1800px;
+    height: 270px;
+    background: url(../images/fish.png) no-repeat center;
+    /* border: 3px solid orange; */
+}
+.designers{
+    width: 1800px;
+    height: 50px;
+    margin-top:100px;
+    /* border: 1px solid black; */
+    
+}
+.designers span{
+    display: block;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    font-size: 25px;
+    /* border: 1px solid orange; */
+}
+.designers p{
+    display: block;
+    width: 80px;
+    height: 20px;
+    margin: 0 auto;
+    color: grey;
+    /* border: 1px solid green; */
+}
+.name{
+    position: relative;
+    width: 1200px;
+    height: 820px;
+    /* margin: 0 auto; */
+    margin-top:100px;
+    margin-left:300px;
+    /* border: 2px solid orange; */
+}
+.name img{
+    padding-left:150px;
+}
+.name .jenny{
+    padding-left:0px;
+}
+.name .founder{
+ 
+    width: 300px;
+    height:450px;
+    margin-top: 40px;
+    /* border:1px solid black; */
+    
+}
+.name .founder span{
+    display: block;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    /* border: 1px solid black; */
+
+}
+.name .founder p{
+    display: block;
+    text-align: center;
+    width: 310px;
+    height:60px;
+    font-size: 12px;
+    
+    /* border:1px solid black; */
+}
+.name .founder a{
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left:78px;
+    text-align: center;
+    line-height: 45px;
+    color: #B9AB77;
+    /* border: 1px solid #B9AB77; */
+}
+.name .founder .underline{
+    width: 300px;
+    height: 80px;
+    border-bottom: 3px solid #B9AB77;
+}
+.name .bill{
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    width: 300px;
+    height:450px;
+    background: url(../images/bill.png) no-repeat center;
+    /* border:1px solid black; */
+    
+}
+.name .bill span{
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    /* border: 1px solid black; */
+
+}
+.name .bill p{
+    position: absolute;
+    top:580px; 
+    left:0px;
+    display: block;
+    text-align: center;
+    width: 300px;
+    height:60px;
+    font-size: 12px;
+    /* border:1px solid black; */
+}
+.name .bill .job{
+    margin-top:-60px;
+}
+.name .rankin{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height:450px;
+    background:url(../images/rankin.png) no-repeat center;
+    /* border:1px solid black; */
+    
+}
+.name .rankin span{
+    position: absolute;
+    top: 490px;
+    right: 0px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    /* border: 1px solid black; */
+
+}
+.name .rankin p{
+    position: absolute;
+    top: 580px;
+    right: 0px;
+    display: block;
+    text-align: center;
+    width: 300px;
+    height:60px;
+    font-size: 12px; 
+    /* border:1px solid black; */
+}
+.name .rankin .position{
+    margin-top:-60px;
+}
+.footer{
+    position: relative;
+    width:1800px;
+    height: 100px;
+    background:black;
+    /* border:1px solid orangered; */
+}
+.footer-left{
+    position: absolute;
+    top:40px;
+    left: 300px;
+    display: block;
+    width: 500px;
+    height: 50px;
+    color: white;
+    
+}
+.footer-right{
+    position: absolute;
+    right: 0px;
+    bottom: -30px;
+    display: block;
+    width: 500px;
+    height: 80px;
+    /* border:1px solid black; */
+    
+}
+.footer-right li{
+    
+    float:left;
+    padding-left:50px;
+    line-height: 50px;
+}
+.footer-right a{
+    color:white;
+}
+

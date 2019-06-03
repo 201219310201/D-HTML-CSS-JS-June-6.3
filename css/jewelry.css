@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.header{
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    margin-left:364px;
+    /* border:1px solid black; */
+}
+.header-logo{
+    width:177px;
+    height:42px;
+    margin-top:5px;
+    background:url(../images/logo.png) no-repeat;
+    /* margin-top:5px; */
+}
+.header-nav{
+    position: absolute;
+    right: 150px;
+    top:10px;
+    width: 600px;
+    height: 50px;
+    /* border:1px solid black; */
+
+}
+.header-nav li{
+    float:left;
+    padding-left:60px;
+}
+.header-nav a{
+    font-size:14px;
+    color:grey;
+}
+.header-nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.header-nav .underline{
+    color: black;
+    text-decoration: underline;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 515px;
+    margin-top: 110px;
+    /* margin-left:300px; */
+    /* border: 1px solid orange; */
+}
+.banner-diamond{
+    width:709px;
+    height: 474px;
+    margin-left:300px;
+    background:url(../images/diamond.png);
+    /* border:1px solid green; */
+}
+
+
+.dress-type{
+    position: absolute;
+    top:0px;
+    left:1085px;
+    width:230px;
+    height:72px;
+    /* border-left:2px solid black; */
+
+
+}
+.banner .banner-diamond .price{
+    position: absolute;
+    top:100px;
+    left:1085px;
+    width:230px;
+    height:72px;
+    /* border:2px solid orange; */
+
+
+}
+.banner .banner-diamond .price span{
+    color:grey;
+    margin-left:150px;
+
+}
+
+.dress-type span{
+    margin-left:10px;
+    font-size:30px;
+    
+}
+.dress-type p{
+    margin-left:140px;
+    
+    
+}
+.banner .banner-diamond .introduction{
+    position: absolute;
+    top:150px;
+    left:1085px;
+    width:430px;
+    height:72px;
+    /* border:1px solid black; */
+
+}
+.banner .banner-diamond .introduction p{
+    color: grey;
+}
+.banner .banner-diamond .reservation{
+    position: absolute;
+    top:245px;
+    left:1150px;
+    width:150px;
+    height: 45px;
+    border: 1px dashed grey;
+}
+.banner .banner-diamond .reservation a{
+    line-height: 45px;
+    margin-left:45px;
+    color: black;
+}
+.pearl{
+    position: relative;
+    width:709px;
+    height:730px;
+    margin-left: 300px;
+  
+    background:url(../images/pearl.png) no-repeat;
+    /* border:1px solid green; */
+}
+.pearl .idea{
+    position:absolute;
+    left: 0px;
+    bottom: 140px;
+    width:708px;
+    height: 80px;
+    /* border:1px solid orange; */
+
+}
+.pearl .idea p{
+    font-size:14px;
+
+}
+.pearl .choice{
+    position: absolute;
+    left:0px;
+    bottom:60px;
+    width:195px;
+    height:40px;
+    /* border:1px solid black; */
+}
+.turn{
+    position: relative;
+    width: 1800px;
+    height: 555px;
+    background-color: #DDDDDD;
+    /* border: 1px solid orange; */
+}
+.turn .goods{
+    position: absolute;
+    top:100px;
+    left: 270px;
+    width: 240px;
+    height: 30px;
+}
+.turn .goods li{
+    float:left;
+    padding-left:30px;
+}
+.turn .goods a{
+    display: block;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    color:grey;
+
+}
+.turn .show{
+    position: absolute;
+    top:220px;
+    left:300px;
+    width: 1200px;
+    height: 138px;
+    /* border:1px solid orange; */
+}
+.turn .show img{
+    padding-left: 20px;
+}
+.turn .turn-position{
+    position: absolute;
+    top:50%;
+    left: 0px;
+    width: 100%;
+    height: 79px;
+    /* border: 1px solid black; */
+
+}
+.turn .turn-left{
+    width: 50px;
+    height: 79px;
+    margin-left:241px;
+    background:url(../images/back.png) no-repeat;
+    /* border:1px solid black; */
+}
+.turn .turn-right{
+    float: right;
+    width: 50px;
+    height: 79px;
+    margin-right:251px;
+    margin-top:-79px;
+    background:url(../images/andmore.png) no-repeat;
+}
+.turn button{
+   display: block;
+   width: 145px;
+   height: 45px;
+   margin:50px auto;
+   
+  
+}
+.footer{
+    position: relative;
+    width:1800px;
+    height: 100px;
+    
+    background:#4D4D4D;
+    /* border:1px solid orangered; */
+}
+.footer-left{
+    position: absolute;
+    top:40px;
+    left: 300px;
+    display: block;
+    width: 500px;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+.footer-right{
+    position: absolute;
+    right: 0px;
+    bottom: -30px;
+    display: block;
+    width: 500px;
+    height: 80px;
+    /* border:1px solid black; */
+    
+}
+.footer-right li{
+    
+    float:left;
+    padding-left:50px;
+    line-height: 50px;
+}
+.footer-right a{
+    color: black;
+}
